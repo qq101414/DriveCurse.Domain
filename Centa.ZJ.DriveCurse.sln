@@ -1,0 +1,93 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Centa.ZJ.DriveCurse.Application", "Centa.ZJ.DriveCurse.Application\Centa.ZJ.DriveCurse.Application.csproj", "{A2344DF8-9695-4EB1-A3A2-0B89B3F8473B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-Infrastructure", "0-Infrastructure", "{E742FE31-CAA1-441A-BF60-1E85D16B75B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Domain", "2-Domain", "{56254525-0CC2-4FE2-8F2C-B9CFE8420E24}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Centa.ZJ.DriveCurse.Domain.Sys", "Centa.ZJ.DriveCurse.Domain.Sys\Centa.ZJ.DriveCurse.Domain.Sys.csproj", "{A74981F3-5236-4ADA-8E17-0E2E88D2A1F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Centa.ZJ.DriveCurse.Domain.Core", "Centa.ZJ.DriveCurse.Domain.Core\Centa.ZJ.DriveCurse.Domain.Core.csproj", "{AD72D520-8E52-47EF-A33B-B08F000CDAB2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Centa.ZJ.DriveCurse.Domain.Interface", "Centa.ZJ.DriveCurse.Domain.Interface\Centa.ZJ.DriveCurse.Domain.Interface.csproj", "{3DB9DFF6-6399-4202-9EA7-FDF330C3AC2F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Centa.ZJ.DriveCurse.Repository.Sys", "Centa.ZJ.DriveCurse.Repository.Sys\Centa.ZJ.DriveCurse.Repository.Sys.csproj", "{4C244BA2-4872-4738-85C5-47174C3A654C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Repository", "3-Repository", "{B0112773-15F6-4BF8-8F06-E10E6DCCB35A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Centa.ZJ.DriveCurse.Ioc", "Centa.ZJ.DriveCurse.Ioc\Centa.ZJ.DriveCurse.Ioc.csproj", "{63FEC1B9-B96B-4DA7-A686-54A75F478063}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Centa.ZJ.DriveCurse.Test", "Centa.ZJ.DriveCurse.Test\Centa.ZJ.DriveCurse.Test.csproj", "{85F85F0C-3A51-488D-8940-AD57F69F3F59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Centa.ZJ.DriveCurse.Application.Interface", "Centa.ZJ.DriveCurse.Application.Interface\Centa.ZJ.DriveCurse.Application.Interface.csproj", "{CD22A860-E9CB-4BE7-8F12-7B180CAE7FA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Centa.ZJ.DriveCurse.Library", "Centa.ZJ.DriveCurse.Library\Centa.ZJ.DriveCurse.Library.csproj", "{858C9C16-307D-4283-BCD7-60DB0E6051F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Centa.ZJ.DriveCurse.WebApp", "Centa.ZJ.DriveCurse.WebApp\Centa.ZJ.DriveCurse.WebApp.csproj", "{4870079A-EBD3-4DD1-8CFE-66B5F0887A2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2344DF8-9695-4EB1-A3A2-0B89B3F8473B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2344DF8-9695-4EB1-A3A2-0B89B3F8473B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2344DF8-9695-4EB1-A3A2-0B89B3F8473B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2344DF8-9695-4EB1-A3A2-0B89B3F8473B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A74981F3-5236-4ADA-8E17-0E2E88D2A1F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A74981F3-5236-4ADA-8E17-0E2E88D2A1F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A74981F3-5236-4ADA-8E17-0E2E88D2A1F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A74981F3-5236-4ADA-8E17-0E2E88D2A1F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD72D520-8E52-47EF-A33B-B08F000CDAB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD72D520-8E52-47EF-A33B-B08F000CDAB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD72D520-8E52-47EF-A33B-B08F000CDAB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD72D520-8E52-47EF-A33B-B08F000CDAB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DB9DFF6-6399-4202-9EA7-FDF330C3AC2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DB9DFF6-6399-4202-9EA7-FDF330C3AC2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DB9DFF6-6399-4202-9EA7-FDF330C3AC2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DB9DFF6-6399-4202-9EA7-FDF330C3AC2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C244BA2-4872-4738-85C5-47174C3A654C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C244BA2-4872-4738-85C5-47174C3A654C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C244BA2-4872-4738-85C5-47174C3A654C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C244BA2-4872-4738-85C5-47174C3A654C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63FEC1B9-B96B-4DA7-A686-54A75F478063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63FEC1B9-B96B-4DA7-A686-54A75F478063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63FEC1B9-B96B-4DA7-A686-54A75F478063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63FEC1B9-B96B-4DA7-A686-54A75F478063}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85F85F0C-3A51-488D-8940-AD57F69F3F59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85F85F0C-3A51-488D-8940-AD57F69F3F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85F85F0C-3A51-488D-8940-AD57F69F3F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85F85F0C-3A51-488D-8940-AD57F69F3F59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD22A860-E9CB-4BE7-8F12-7B180CAE7FA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD22A860-E9CB-4BE7-8F12-7B180CAE7FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD22A860-E9CB-4BE7-8F12-7B180CAE7FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD22A860-E9CB-4BE7-8F12-7B180CAE7FA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{858C9C16-307D-4283-BCD7-60DB0E6051F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{858C9C16-307D-4283-BCD7-60DB0E6051F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{858C9C16-307D-4283-BCD7-60DB0E6051F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{858C9C16-307D-4283-BCD7-60DB0E6051F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4870079A-EBD3-4DD1-8CFE-66B5F0887A2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4870079A-EBD3-4DD1-8CFE-66B5F0887A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4870079A-EBD3-4DD1-8CFE-66B5F0887A2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4870079A-EBD3-4DD1-8CFE-66B5F0887A2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A74981F3-5236-4ADA-8E17-0E2E88D2A1F5} = {56254525-0CC2-4FE2-8F2C-B9CFE8420E24}
+		{AD72D520-8E52-47EF-A33B-B08F000CDAB2} = {E742FE31-CAA1-441A-BF60-1E85D16B75B6}
+		{3DB9DFF6-6399-4202-9EA7-FDF330C3AC2F} = {56254525-0CC2-4FE2-8F2C-B9CFE8420E24}
+		{4C244BA2-4872-4738-85C5-47174C3A654C} = {B0112773-15F6-4BF8-8F06-E10E6DCCB35A}
+		{63FEC1B9-B96B-4DA7-A686-54A75F478063} = {E742FE31-CAA1-441A-BF60-1E85D16B75B6}
+		{858C9C16-307D-4283-BCD7-60DB0E6051F8} = {E742FE31-CAA1-441A-BF60-1E85D16B75B6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {344A23FF-E0CA-4819-B6B5-053B247FADC1}
+	EndGlobalSection
+EndGlobal
